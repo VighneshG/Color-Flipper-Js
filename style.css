@@ -1,0 +1,112 @@
+@keyframes mymove {
+  from {
+    left: 10px;
+  }
+  to {
+    left: 1180px;
+  }
+}
+
+#animate {
+  position: fixed;
+  top: 210px;
+  font-family: cinzel;
+  font-size: larger;
+  border-radius: 20px;
+  padding: 10px;
+  text-align: left;
+  background: url("https://media2.giphy.com/headers/xfrgmnts/pZhkrZrlPoj4.gif");
+  position: relative;
+  animation: mymove 12s infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+#content {
+  font-family: "Courier New", Courier, monospace;
+  margin-top: 20px;
+  margin-left: 50px;
+  color: rgb(0, 0, 0);
+  position: auto;
+}
+
+.color {
+  color: white;
+}
+
+body {
+  text-align: inherit;
+}
+
+#main {
+  color: rgb(163, 11, 118);
+  font-family: cinzel;
+}
+
+.container {
+  text-align: center;
+  margin-top: 60px;
+  color: coral;
+  background: #222;
+  text-align: center;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+.container1 {
+  text-align: center;
+  margin: 60px;
+  background: #222;
+  text-align: center;
+  padding: 10px;
+  color: antiquewhite;
+  border-radius: 50px;
+}
+
+li {
+  margin: 10px 5px;
+}
+
+/* nav {
+  background: rgb(250, 197, 205);
+  height: 100px;
+  display: grid;
+  align-items: center;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+} */
+
+/* .nav-center {
+  width: 100%;
+  max-width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+} */
+
+/* .nav-links {
+  display: flex;
+  font-variant: small-caps;
+  text-align: center;
+} */
+
+/* nav a {
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: rgb(19, 67, 109);
+  letter-spacing: 0.3rem;
+  margin-right: 1rem;
+  text-decoration: none;
+  text-align: center;
+} */
+
+/* nav a:hover {
+  color: rebeccapurple;
+} */
+
+/* ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+} */

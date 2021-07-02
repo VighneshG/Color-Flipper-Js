@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hex Color Flipper</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="main.html" id="main">Color Flipper</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="btn btn-outline-secondary"
+                aria-current="page"
+                href="main.html"
+                >Simple</a
+              >
+            </li>
+            <br />
+            <li class="nav-item">
+              <a
+                class="btn btn-outline-secondary"
+                aria-current="page"
+                href="hex.html"
+                >Hex</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- <nav>
+      <div class="nav-center">
+        <h3 id="main">Color Flipper</h3>
+        <ul class="nav-links">
+          <li>
+            <a class="btn btn-outline-secondary" href="main.html" role="button">
+              Simple
+            </a>
+            <a href="main.html">Simple</a>
+          </li>
+          <li>
+            <a class="btn btn-outline-success" href="hex.html" role="button">
+              Random Hex
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav> -->
+    <div
+      style="
+        font-family: 'Courier New', Courier, monospace;
+        margin-top: 20px;
+        color: rgb(0, 0, 0);
+        padding-left: 100px;
+        padding-top: 20px;
+        background-image: url('');
+      "
+    >
+      <h3 style="text-align: center">
+        This will generate any random background color
+      </h3>
+    </div>
+    <span id="animate"> Designed by Vighnesh </span>
+    <main>
+      <div class="container">
+        <h3><span class="color">White</span></h3>
+        <button class="btn btn-outline-warning" id="button">Click Me</button>
+      </div>
+    </main>
+    <img
+      src="https://gifdownload.net/wp-content/uploads/2019/02/footer-gif-8.gif"
+      alt="Clouds gif"
+      style="width: 100%; height: 480px; position: relative"
+    />
+    <script src="hex.js"></script>
+  </body>
+</html>
