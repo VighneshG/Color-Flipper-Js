@@ -41,14 +41,13 @@ body {
 #main {
   color: rgb(163, 11, 118);
   font-family: cinzel;
+  font-size: 2rem;
 }
 
 .container {
   text-align: center;
   margin-top: 60px;
-  color: coral;
   background: #222;
-  text-align: center;
   padding: 10px;
   border-radius: 50px;
 }
@@ -59,12 +58,21 @@ body {
   background: #222;
   text-align: center;
   padding: 10px;
-  color: antiquewhite;
   border-radius: 50px;
 }
 
 li {
   margin: 10px 5px;
+}
+
+.navclass {
+  font-family: cinzel, sans-serif;
+  position: absolute;
+  left: 70%;
+  right: 15%;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
 }
 
 /* nav {
